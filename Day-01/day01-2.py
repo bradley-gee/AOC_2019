@@ -16,7 +16,12 @@ def get_fuel_for_mass(added_mass):
     return fuel_for_added_mass
 
 
+def get_input(filename):
+    with open(filename) as f:
+        raw_input = f.read()
+    return raw_input
 
-with open("input.txt","r") as input_file:
-    puzzle_input = input_file.read()
-    print (main(puzzle_input))
+
+if __name__ == '__main__':
+    puzzle_input = get_input('input.txt')
+    print(main(puzzle_input))

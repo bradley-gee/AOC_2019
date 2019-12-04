@@ -8,6 +8,12 @@ def main(puzzle_input):
     return str(solution)
 
 
-with open("input.txt","r") as input_file:
-    puzzle_input = input_file.read()
-    print (main(puzzle_input))
+def get_input(filename):
+    with open(filename) as f:
+        raw_input = f.read()
+    return raw_input
+
+
+if __name__ == '__main__':
+    puzzle_input = get_input('input.txt')
+    print(main(puzzle_input))
