@@ -7,7 +7,7 @@ def main(puzzle_input):
     return str(solution)
 
 def get_fuel_for_mass(added_mass):
-    fuel_for_added_mass = (added_mass / 3) - 2
+    fuel_for_added_mass = (added_mass // 3) - 2
     if fuel_for_added_mass > 0:
         fuel_for_added_mass += get_fuel_for_mass(fuel_for_added_mass)
     else:
