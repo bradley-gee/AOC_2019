@@ -1,0 +1,206 @@
+{
+  "schemeCode": "GAS-2022-SLR",
+  "applicationName": "GAS-2022-SLR",
+  "business": {
+    "businessName": "Green Forest Farm",
+    "brn": "1234567",
+    "mlc": "11/222/33334",
+    "emailAddress": "example@email.com"
+  },
+  "equipments": [
+    {
+      "id": 4,
+      "quantity": 2,
+      "reason": "reason for eq test"
+    }
+  ],
+  "applicant": {
+    "businessName": "Green Forest Farm",
+    "brn": "1234567",
+    "mlc": "11/222/33334",
+    "emailAddress": "example@email.com",
+    "email": "preferred@test.com"
+  },
+  "fields": [
+    {
+      "sectionKey": "initialGroup",
+      "subSection": "slurryEligibilityGroup",
+      "fieldName": "slurryEligibilityPosition",
+      "values": [
+        {
+          "key": "slurryEligibilityPosition",
+          "value": "Yes",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "sectionKey": "initialGroup",
+      "subSection": "gasEligibilityGroup",
+      "fieldName": "publicBodiesPosition",
+      "values": [
+        {
+          "key": "publicBodiesPosition",
+          "value": "No",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "sectionKey": "initialGroup",
+      "subSection": "gasEligibilityGroup",
+      "fieldName": "contractingActivity",
+      "values": [
+        {
+"key": "contractingActivity",
+          "value": "Yes",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "sectionKey": "initialGroup",
+      "subSection": "gasEligibilityGroup",
+      "fieldName": "contractingActivityDetails",
+      "values": [
+        {
+          "key": "contractingActivityDetails",
+          "value": "contracting activity test",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "farmActivityGroup",
+      "fieldName": "farmActivity",
+      "values": [
+        {
+          "key": "storeSlurryDigestate",
+          "value": "Store digestate and/or livestock slurry",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "farmActivityGroup",
+      "fieldName": "farmActivity",
+      "values": [
+        {
+            "key": "applySlurryDigestate",
+          "value": "Apply livestock slurry and/or digestate to land",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "farmActivityGroup",
+      "fieldName": "farmActivity",
+      "values": [
+        {
+          "key": "contractorApplySlurryDigestate",
+          "value": "Use a contractor to apply digestate and/or livestock slurry to land",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "slurryActivitiesGroup",
+      "fieldName": "livestockSlurryStorageCapacity",
+      "values": [
+        {
+          "key": "livestockSlurryStorageCapacity",
+          "value": 1,
+          "type": "INTEGER"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "slurryActivitiesGroup",
+      "fieldName": "weeksLivestockSlurryStorageCapacity",
+      "values": [
+        {
+            "key": "weeksLivestockSlurryStorageCapacity",
+          "value": 2,
+          "type": "INTEGER"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "slurryActivitiesGroup",
+      "fieldName": "livestockSlurryAppliedAnnual",
+      "values": [
+        {
+          "key": "livestockSlurryAppliedAnnual",
+          "value": 3,
+          "type": "INTEGER"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "slurryActivitiesGroup",
+      "fieldName": "digestateAppliedAnnual",
+      "values": [
+        {
+          "key": "digestateAppliedAnnual",
+          "value": 4,
+          "type": "INTEGER"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "slurryActivitiesGroup",
+      "fieldName": "slurryAppliedContractor",
+      "values": [
+        {
+            "key": "slurryAppliedContractor",
+          "value": 5,
+          "type": "INTEGER"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "slurryActivitiesGroup",
+      "fieldName": "digestateAppliedContractor",
+      "values": [
+        {
+          "key": "digestateAppliedContractor",
+          "value": 6,
+          "type": "INTEGER"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "businessQuestionsGroup",
+      "fieldName": "businessQuestion",
+      "values": [
+        {
+          "key": "businessQuestion",
+          "value": "None selected",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "sectionKey": "farmDetails",
+      "subSection": "businessFutureCompletionsGroup",
+      "fieldName": "businessFutureQuestion",
+      "values": [
+        {
+            "key": "Carbon audit",
+          "value": "Carbon audit",
+          "type": "STRING"
+        }
+      ]
+    }
+  ]
+}
